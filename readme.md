@@ -1,0 +1,1 @@
+read me :D ben kankam olan tayfunu seviyorum
