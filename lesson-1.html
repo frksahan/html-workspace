@@ -81,28 +81,39 @@
       <form action="" method="post">
         <h1>How is going on?</h1>
         <h3>I added a new compenent on my first project!</h3>
-        
+
         <label for="try">Try it:</label>
-        <input type="text" name="first-project"><br><br> <!--Bu iki bölümü tam alt alta alamadım-->
-        
+        <input type="text" name="first-project"><br><br>
+        <!--Bu iki bölümü tam alt alta alamadım-->
+
         <label for="user-pw">Password:</label>
         <input type="password" name="user-pw"><br><br>
-        
+
         <label for="years">How many cats have?</label>
         <input type="number" name="years" id="years" step="1"><br><br>
-        
+
         <label for="select">Price Select</label>
-        <input type="range" name="price select" id="select"   min="0" max="10" step="1"><br><br>
+        <input type="range" name="price select" id="select" min="0" max="10" step="1"><br><br>
 
         <label for="guarantee">Garanti</label>
-        <input type="checkbox" name="garanti" id="guarantee"  value="garanti"><br>
+        <input type="checkbox" name="garanti" id="guarantee" value="garanti"><br>
 
         <label for="Expensive">Expensive</label>
         <input type="radio" name="expensive" id="yes" value="yes">
-        
-        
+
+
         <label for="Cheap">Cheap</label>
-        <input type="radio" name="cheap" id="no" value="no">
+        <input type="radio" name="cheap" id="no" value="no"><br><br>
+
+        <section class="bun-type">
+          <label for="bun">What do you want to from us?</label>
+          <select id="bun" name="bun">
+            <option value="money">Money</option>
+            <option value="gold">Gold</option>
+            <option value="empty">If you want you can choice</option>
+          </select>
+        </section>
+        <br>
 
       </form>
       <tbody>
