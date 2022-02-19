@@ -1,1 +1,1 @@
-read me :D ben kankam olan tayfunu seviyorum çok da sevmiyom
+read me :D html de bir şeyler yapmaya çalışıyoruz.

@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Number Guessing</title>
+    <title>Sayı tahmin etmece oynayalım..</title>
+    <title>Giriş Sayfası</title>
     <link rel="stylesheet" href="style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
 </head>
@@ -11,13 +12,29 @@
 <body>
     <section class="overlay">
         <center>
-            <h1>Guess the right number!</h1>
+            <h1>Sayı tahmin etmece oynayalım..</h1>
             <form action="check.html" method="GET">
-                <label for="guess">Enter a number between 1-10:</label>
+                <label for="guess">Birinen on arasında bir sayı giriver!:</label><br>
+                <input type="number" name="guess" id="guess" required min="1" max="10">
                 <br>
-                <input type="number" name="guess" id="guess" required>
+                <input type="submit" id="submission" value="Gonder">
                 <br>
-                <input type="submit" id="submission" value="Submit">
+
+
+                <h1>Giriş Sayfası
+                    <p>Hesap Oluşturun</p>
+                    <form action="submission.html" method="GET">
+                        <label for="username">Kullanıcı Ad:</label>
+                        <br>
+                        <input id="username" name="username" type="text" required minlength="3" maxlength="10">
+                        <br>
+                        <label for="pw">Şifre:</label>
+                        <br> 
+                        <input id="pw" name="pw" type="password" required>
+                        <br>
+                        <input type="submit" value="Kaydol">
+                    </form>
+                </h1>
         </center>
         </form>
     </section>
